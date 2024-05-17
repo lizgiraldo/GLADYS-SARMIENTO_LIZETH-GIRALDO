@@ -97,7 +97,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 ex.printStackTrace();
             }
         }
-        LOGGER.info("Listado de todos los pacientes: " + odontologos);
+        LOGGER.info("Listado de todos los Odontologos: " + odontologos);
 
         return odontologos;
     }
