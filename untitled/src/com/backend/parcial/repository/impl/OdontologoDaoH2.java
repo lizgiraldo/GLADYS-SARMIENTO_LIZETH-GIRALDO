@@ -6,7 +6,9 @@ import com.backend.parcial.repository.IDao;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
-import java.util.logging.Logger;
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class OdontologoDaoH2 implements IDao<Odontologo> {
     private final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
@@ -62,13 +64,45 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 LOGGER.error("No se pudo cerrar la conexion: " + ex.getMessage());
             }
         }
-
-
-
-
-
+        
         return odontologoRegistrado;
     }
 
+    @Override
+    public List<Odontologo> listarTodos() {
 
+        Connection connection = null;
+        List<Odontologo> odontologos = new ArrayList<>();
+        try{
+            connection = H2Connection.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM ODONTOLOGOS");
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()){
+
+                Odontologo odontologo = crearObjetoOdontologo(resultSet);
+                odontologos.add(odontologo);
+            }
+
+
+        } catch (Exception e) {
+            LOGGER.error(e.getMessage());
+            e.printStackTrace();
+
+        } finally {
+            try {
+                connection.close();
+            } catch (Exception ex) {
+                LOGGER.error("Ha ocurrido un error al intentar cerrar la bdd. " + ex.getMessage());
+                ex.printStackTrace();
+            }
+        }
+        LOGGER.info("Listado de todos los pacientes: " + odontologos);
+
+        return odontologos;
+    }
+
+    private Odontologo crearObjetoOdontologo(ResultSet resultSet) throws SQLException{
+        return new Odontologo(resultSet.getLong("id"),resultSet.getLong("numeroDeMatricula"), resultSet.getString("nombre"), resultSet.getString("apellido"));
+    }
 }
