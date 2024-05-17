@@ -1,0 +1,49 @@
+[2024-05-16 23:06:38] [ ERROR] [OdontologoDaoH2:89] La base de datos puede que ya esté siendo utilizada: "/Users/lizethgiraldoalvarado/parcial.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "/Users/lizethgiraldoalvarado/parcial.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 23:06:38] [ ERROR] [OdontologoDaoH2:96] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-05-16 23:06:38] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:07:47] [ ERROR] [OdontologoDaoH2:89] La base de datos puede que ya esté siendo utilizada: "/Users/lizethgiraldoalvarado/parcial.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "/Users/lizethgiraldoalvarado/parcial.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 23:07:47] [ ERROR] [OdontologoDaoH2:96] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-05-16 23:07:47] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:13:36] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:13:36] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:19:20] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS ; [42104-224]
+[2024-05-16 23:19:20] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:23:58] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:23:58] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:25:06] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:25:06] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:26:20] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:26:20] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:34:17] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:34:17] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:39:53] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:39:53] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:43:47] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:44:32] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:45:22] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:45:32] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:49:02] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 23:50:56] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:51:05] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS WHERE id=1 [42104-224]
+[2024-05-16 23:51:05] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-16 23:51:30] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS WHERE ID=1 [42104-224]
+[2024-05-16 23:51:30] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-17 00:01:37] [ ERROR] [OdontologoDaoH2:89] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-17 00:02:30] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: []
+[2024-05-17 08:01:21] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: [Odontologo{id=1, numeroDeMatricula=1265, nombre='Esteban', apellido='Gonzalez'}, Odontologo{id=2, numeroDeMatricula=6589, nombre='Armando', apellido='Cajas'}]
+[2024-05-17 08:17:39] [ INFO ] [OdontologoDaoH2:100] Listado de todos los Odontologos: [Odontologo{id=1, numeroDeMatricula=1265, nombre='Esteban', apellido='Gonzalez'}, Odontologo{id=2, numeroDeMatricula=6589, nombre='Armando', apellido='Cajas'}]
